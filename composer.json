@@ -1,7 +1,7 @@
 {
     "name": "datenbetrieb/sqllog",
     "type": "typo3-cms-extension",
-    "description": "A small extension that extends Database/Conneection with SQL-Logging",
+    "description": "TYPO3 extension that extends Database/Conneection with SQL-Logging",
     "authors": [
         {
             "name": "Peter Niederlag",
