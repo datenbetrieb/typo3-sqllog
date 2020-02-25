@@ -2,6 +2,9 @@
     "name": "datenbetrieb/sqllog",
     "type": "typo3-cms-extension",
     "description": "A small TYPO3 extension that extends Database/Conneection with SQL-Logging",
+    "license": [
+	    "GPL-2.0-or-later"
+    ],
     "authors": [
         {
             "name": "Peter Niederlag",
