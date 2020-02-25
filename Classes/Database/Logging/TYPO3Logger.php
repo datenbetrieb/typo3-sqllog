@@ -52,6 +52,7 @@ class TYPO3Logger implements \Doctrine\DBAL\Logging\SQLLogger, \Psr\Log\LoggerAw
         }
 
         $this->currentQuery['executionMS'] = microtime(true) - $this->start;
+        //$this->logger->debug('SELECT CHECK ' . print_r(strpos($this->currentQuery['sql'], 'SELECT'),1));
         $this->logger->debug("SQL-Metric", $this->currentQuery);
     }
 }
