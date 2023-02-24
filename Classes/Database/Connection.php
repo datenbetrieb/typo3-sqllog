@@ -34,7 +34,7 @@ class Connection extends \TYPO3\CMS\Core\Database\Connection
           return false;
       }
       $logger = GeneralUtility::makeInstance(Logging\TYPO3Logger::class);
-      $configuration = $this->getConfiguration()->setSQLLogger($logger);
+      $this->getConfiguration()->setSQLLogger($logger);
       return true;
   }
 }
